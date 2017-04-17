@@ -1,0 +1,295 @@
+@import url("https://www.hispachan.org/css/hispachancodeoscuro.css");
+html,body {
+	background:#1D1F21!important;
+	color:#C4C4C4!important;
+	font-family:sans-serif;
+	font-size:90%;
+	line-height:130%;
+	margin:0 auto 0 auto;
+}
+a {
+	color:#5f89ac;
+	text-decoration:none;
+}
+a:hover {
+	color:#78ADD7;
+	text-decoration:none;
+	text-shadow:1px 0px 20px #78ADD7;
+}
+.reflink a {
+	color:#5f89ac!important;
+	font-weight:bold;
+}
+.reflink a:hover {
+	color:#78ADD7!important;
+}
+.logo {
+	clear:both;
+	text-align:center;
+	padding-top:8px;
+	padding-bottom:10px;
+	font-size:220%;
+	font-weight:bold;
+	line-height:120%;
+	color:#5f89ac;
+	width:100%;
+}
+.replymode {
+	background:#5f89ac;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:120%;
+	width:100%;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.catalogmode {
+	background:#5f89ac;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:120%;
+	width:100%;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.postblock {
+	background:#282a2e;
+	text-align:center;
+	color:#C4C4C4;
+	padding:5px;
+	font-weight:bold;
+	border:1px solid #35383D;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.footer {
+	text-align:center;
+	font-size:13px;
+	font-family:sans-serif;
+}
+.passvalid {
+	background:#EEAA88;
+	text-align:center;
+	width:100%;
+	color:#ffffff;
+}
+.dellist {
+	font-weight:bold;
+	text-align:center;
+}
+.delbuttons {
+	text-align:center;
+	padding-bottom:4px;
+}
+.managehead {
+	background:#AAAA66;
+	color:#400000;
+	padding:0px;
+}
+.postlists {
+	background:#FFFFFF;
+	width:100%;
+	padding:0px;
+	color:#800000;
+}
+.unkfunc {
+	background:inherit;
+	color:#69A46F;
+}
+.filesize {
+	text-decoration:none;
+}
+.filetitle {
+	background:inherit;
+	color:#B294BB;
+	font-weight:bold;
+}
+.postername {
+	color:#C4C4C4;
+	font-weight:bold;
+}
+.postertrip {
+	color:#1f8f2a;
+}
+.omittedposts {
+	color:#B3B3B3;
+}
+.reply {
+	background:#282a2e;
+	color:#C4C4C4;
+	padding:5px;
+	border:1px solid #35383D;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.replyhl {
+	background:#E1E1E1;
+	color:#800000;
+}
+.doubledash {
+	vertical-align:top;
+	clear:both;
+	float:left;
+}
+.replytitle {
+	font-size:1.2em;
+	color:#CC1105;
+	font-weight:800;
+}
+.commentpostername {
+	color:#FFFFFF;
+	font-weight:800;
+}
+.thumbnailmsg {
+	font-size:small;
+	color:#800000;
+}
+.abbrev {
+	color:#B3B3B3;
+	padding-top:20px;
+}
+.highlight {
+	background:#313338;
+	color:#C4C4C4;
+	padding:5px;
+	border:1px solid #7D899E;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.reflinkpreview {
+	background-color:#1d1f21!important;
+	border:1px solid #35383D!important;
+}
+hr {
+	height:1px;
+	color:#616977;
+	background-color:#616977;
+	border:0 none;
+}
+.reporte {
+	text-align:right;
+	border:1px solid #35383D;
+	background:#282a2e;
+	padding:8px;
+	margin-bottom:5px;
+	border-radius:5px;
+}
+.enviar {
+	border:solid 0px #347031;
+	border-radius:3px;
+	moz-border-radius:3px;
+	font-size:13px;
+	color:#e0e0e0;
+	padding:4px 10px;
+	background-color:#347031;
+	cursor:pointer;
+	margin-left:10px;
+}
+.hidethread {
+	background-color:#5f89ac!important;
+	border-radius:3px;
+}
+.unhidethread {
+	background-color:#5f89ac!important;
+	border-radius:3px;
+}
+.code {
+	background:#2C2E32;
+	border:1px solid #6D798E;
+}
+.pnuevos {
+	font-size:70%;
+	font-weight:bold;
+	color:#22AE34;
+	position:relative;
+	top:-5px;
+	padding-left:2px;
+	line-height:70%;
+}
+.cellcatalog {
+	background:#282a2e;
+	border:1px solid #35383D;
+	border-radius:5px;
+}
+.barra {
+	font-size:120%;
+	line-height:140%;
+	border-radius:5px;
+	background:#313338;
+	padding:5px;
+	border:1px solid #35383D;
+}
+.numeros {
+	border:1px solid #35383D;
+	background:#313338;
+	padding:5px;
+	border-radius:5px;
+}
+.diverror {
+	border:1px solid #35383D;
+	background:#313338;
+	line-height:130%;
+	padding:15px;
+	border-radius:5px;
+}
+.divban {
+	border-radius:5px;
+	text-align:center;
+	padding:20px 20px 22px 20px;
+	margin:4px auto;
+	margin-top:-20px;
+	max-width:800px;
+	border:1px solid #35383D;
+	background:#313338;
+}
+.divboardphp {
+	font-family:sans-serif;
+	font-size:140%;
+	line-height:130%;
+	padding-top:10px;
+}
+.hispanotif-preview {
+	border:1px solid #7D899E!important;
+}
+#quick_reply_window {
+	border:1px solid #7D899E!important;
+}
+#scrollTop,#scrollBottom {
+	background-color:#282a2e;
+	border:1px solid #7D899E;
+}
+.cookies {
+	border-top:1px solid #7D899E;
+	background:#282a2e;
+}
+.hispachan-js-tw-cnt {
+	min-height:120px;
+	width:480px;
+	display:inline-block;
+	text-align:left;
+	border:1px solid #5f89ac;
+	border-radius:5px;
+}
+.hispachan-js-tw-title {
+	color:#B294BB;
+	margin-top:0;
+	padding:0.8em;
+	background:#282a2e;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
