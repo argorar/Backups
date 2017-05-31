@@ -1,4 +1,4 @@
-<img src="http://dogars.org/sprites/xyani-shiny/gengar.gif" alt="Logo" align="right"/>
+<img src="https://play.pokemonshowdown.com/sprites/xyani/gengar.gif" alt="Logo" align="right"/>
 
 # Backups
 
