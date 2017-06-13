@@ -1,6 +1,6 @@
 {
   "version": "1.13.8.7",
-  "date": 1497283277885,
+  "date": 1497365064064,
   "Conf": {
     "JSON Index": true,
     "Use 4chan X Catalog": true,
@@ -23,7 +23,7 @@
     "Index Navigation": false,
     "Reply Navigation": false,
     "Custom Board Titles": true,
-    "Persistent Custom Board Titles": false,
+    "Persistent Custom Board Titles": true,
     "Show Updated Notifications": true,
     "Color User IDs": true,
     "Count Posts by ID": true,
@@ -72,10 +72,10 @@
     "Volume in New Tab": true,
     "Use Faster Image Host": true,
     "Menu": true,
-    "Report Link": true,
-    "Thread Hiding Link": true,
-    "Reply Hiding Link": true,
-    "Delete Link": true,
+    "Report Link": false,
+    "Thread Hiding Link": false,
+    "Reply Hiding Link": false,
+    "Delete Link": false,
     "Archive Link": true,
     "Edit Link": true,
     "Download Link": true,
@@ -146,7 +146,7 @@
     "Stretch to Fit": false,
     "Scroll to Post": true,
     "Slide Delay": 6,
-    "Default Volume": 0,
+    "Default Volume": 0.11029633968883529,
     "Current Board": false,
     "Auto Update Thread Watcher": true,
     "Auto Watch": false,
@@ -174,7 +174,7 @@
     "Previous Index Mode": "infinite",
     "Index Size": "large",
     "Show Replies": true,
-    "Catalog Hover Expand": false,
+    "Catalog Hover Expand": true,
     "Catalog Hover Toggle": true,
     "Pin Watched Threads": false,
     "Anchor Hidden Threads": true,
@@ -191,7 +191,7 @@
     "archiveLists": "https://mayhemydg.github.io/archives.json/archives.json",
     "lastarchivecheck": 1497280947331,
     "archiveAutoUpdate": true,
-    "boardnav": "toggle-all b-text:\"ramdom\" vp-text:\"pokémon\" gif-text:\"nsfw\" g-text:\"tecnology\" wg-text:\"rice\"   jp-text:\"nippon\" w-text:\"walls\" mu-text:\"music\" external-text:\"UnixPorn\",\"https://www.reddit.com/r/unixporn/\" external-text:\"Kpopfap\",\"https://www.reddit.com/r/kpopfap/\"",
+    "boardnav": "toggle-all b-text:\"random\" vp-text:\"pokémon\" gif-text:\"nsfw\" s-text:\"girls\" g-text:\"technology\" wg-text:\"rice\"   jp-text:\"nippon\" w-text:\"walls\" mu-text:\"music\" external-text:\"Unix\",\"https://www.reddit.com/r/unixporn/\" external-text:\"Kpopfap\",\"https://www.reddit.com/r/kpopfap/\"",
     "QR.personas": "#options:\"sage\";boards:jp;always",
     "sjisPreview": false,
     "jsWhitelist": "http://s.4cdn.org\nhttps://s.4cdn.org\nhttp://www.google.com\nhttps://www.google.com\nhttps://www.gstatic.com\nhttp://cdn.mathjax.org\nhttps://cdn.mathjax.org\n'self'\n'unsafe-inline'\n'unsafe-eval'\n\n# Banner ads\n#http://s.zkcdn.net/ados.js\n#https://s.zkcdn.net/ados.js\n#http://engine.4chan-ads.org\n#https://engine.4chan-ads.org\n\nhttps://cdnjs.cloudflare.com",
@@ -285,17 +285,44 @@
           "17139764": 17164374
         },
         "mu": {
-          "73321821": 73322398
+          "73321821": 73322398,
+          "73322692": 73323814,
+          "73337872": 73338959,
+          "73338693": 73338933
         },
         "gif": {
+          "10725425": 10729593,
+          "10725497": 10752187,
+          "10734618": 10734682,
           "10737522": 10751181
+        },
+        "tv": {
+          "83835569": 83836150
+        },
+        "wg": {
+          "6945122": 6945951
+        },
+        "s": {
+          "9112225": 9240138,
+          "17515746": 17532421,
+          "17516567": 17532384,
+          "17519368": 17532318,
+          "17525467": 17532379,
+          "17525717": 17532400
+        },
+        "hc": {
+          "1176063": 1177326
+        },
+        "g": {
+          "60882157": 60882939,
+          "60882483": 60882874
         }
       },
-      "lastChecked": 1497280947103
+      "lastChecked": 1497363777785
     },
     "yourPosts": {
       "boards": {},
-      "lastChecked": 1497280947052
+      "lastChecked": 1497289897010
     },
     "watchedThreads": {
       "boards": {
@@ -326,13 +353,13 @@
           }
         }
       },
-      "lastChecked": 1497283220201
+      "lastChecked": 1497364778597
     },
     "customTitles": {
       "boards": {
         "w": {
           "boardTitle": {
-            "title": "「 壁紙 & 日本 WEEBS WALLS 」 \n      \n\n       ",
+            "title": "「 壁紙 & 日本  WALLS 」 \n      \n\n       ",
             "orig": "/w/ - Anime/Wallpapers"
           }
         },
@@ -344,7 +371,7 @@
         },
         "wg": {
           "boardTitle": {
-            "title": "「 壁紙 &普通  RICE and walls 」",
+            "title": "「壁紙 &普通 RICE walls」",
             "orig": "/wg/ - Wallpapers/General"
           }
         },
@@ -400,6 +427,30 @@
           "boardTitle": {
             "title": "「 料理 Cooking 」",
             "orig": "/ck/ - Food & Cooking"
+          }
+        },
+        "s": {
+          "boardTitle": {
+            "title": "「  美しい女性 」",
+            "orig": "/s/ - Sexy Beautiful Women"
+          }
+        },
+        "b": {
+          "boardTitle": {
+            "title": "「 ランダム  Random 」",
+            "orig": "/b/ - Random"
+          }
+        },
+        "g": {
+          "boardTitle": {
+            "title": "  「 技術 Technology 」",
+            "orig": "/g/ - Technology"
+          }
+        },
+        "mu": {
+          "boardTitle": {
+            "title": "「 音楽 Music 」",
+            "orig": "/mu/ - Music"
           }
         }
       }
