@@ -9,8 +9,8 @@
 // @grant        none
 // @require      https://onee3.org/libs/fileserver/1.3.3/FileSaver.min.js
 // @require      https://onee3.org/libs/jquery/3.3.1/jquery.min.js
-// @updateURL    https://github.com/argorar/Backups/raw/master/Scripts/DonwloadImageDiscord.user.js
-// @downloadURL  https://github.com/argorar/Backups/raw/master/Scripts/DonwloadImageDiscord.user.js
+// @updateURL    https://github.com/argorar/Backups/raw/master/Scripts/DonwloadImage.user.js
+// @downloadURL  https://github.com/argorar/Backups/raw/master/Scripts/DonwloadImage.user.js
 // ==/UserScript==
 
 function file_mime(filename) {
@@ -52,7 +52,7 @@ function donwload_image(image_url){
         let url = window.location.href;
         donwload_image(url);
     });
-    var css = ' .button { display: inline-block; transition: 0.25s; border-radius: 2px; background-color: #107a83; border: none; color: #FFFFFF; text-align: center; font-size: 16px; padding: 12px; width: 120px; cursor: pointer; margin: 2px; }',
+    var css = ' .button { display: inline-block; transition: 0.25s; border-radius: 2px; background-color: rgb(205,71,35); border: none; color: #FFFFFF; text-align: center; font-size: 16px; padding: 12px; width: 120px; cursor: pointer; margin: 2px; }',
     head = document.head || document.getElementsByTagName('head')[0],
     style = document.createElement('style');
     head.appendChild(style);
